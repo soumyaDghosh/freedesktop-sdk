@@ -244,7 +244,7 @@ parts:
   gstreamer:
     after: [libmpeg2]
     source: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-    source-tag: '1.22.3''
+    source-tag: '1.22.3'
     plugin: meson
     meson-parameters:
       - --prefix=/usr
